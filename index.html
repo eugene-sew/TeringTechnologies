@@ -9,51 +9,58 @@
 
     <script src="./tailwind.js"></script>
   </head>
-  <body class="bg-gray-300">
+  <body class="bg-white">
     <nav
       class="flex flex-col items-center justify-center px-10 bg-white fixed w-full"
     >
       <img src="./Img/logo.png" alt="" class="" />
-      <ul class="flex gap-5 px-2 py-2 -mt-16">
+      <ul
+        class="flex gap-5 px-2 py-2 -mt-16 w-[400px] md:w-full md:justify-center overflow-hidden overflow-x-scroll"
+      >
         <li
-          class="px-2 py-2 rounded shadow bg-green-200 text-gray-700 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
+          class="px-2 md:py-2 md:rounded md:shadow md:bg-green-200 md:text-gray-700 text-gray-800 text-center border-b-2 border-green-300 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
         >
           About Us
         </li>
         <li
-          class="px-2 py-2 rounded shadow bg-green-200 text-gray-700 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
+          class="px-2 md:py-2 md:rounded md:shadow md:bg-green-200 md:text-gray-700 text-gray-800 text-center border-b-2 border-green-300 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
         >
           Tech
         </li>
         <li
-          class="px-2 py-2 rounded shadow bg-green-200 text-gray-700 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
+          class="px-2 md:py-2 md:rounded md:shadow md:bg-green-200 md:text-gray-700 text-gray-800 text-center border-b-2 border-green-300 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
         >
           Download
         </li>
         <li
-          class="px-2 py-2 rounded shadow bg-green-200 text-gray-700 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
+          class="px-2 md:py-2 md:rounded md:shadow md:bg-green-200 md:text-gray-700 text-gray-800 text-center border-b-2 border-green-300 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
         >
           Contact Us
         </li>
         <li
-          class="px-2 py-2 rounded shadow bg-green-200 text-gray-700 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
+          class="px-2 md:py-2 md:rounded md:shadow md:bg-green-200 md:text-gray-700 text-gray-800 text-center border-b-2 border-green-300 hover:bg-green-400 transition ease-in-out duration-400 cursor-pointer font-bold text-xl"
         >
           Support
         </li>
       </ul>
     </nav>
 
-    <main class="grid place-content-center items-center h-screen">
+    <main
+      class="place-content-center items-center h-screen w-screen px-10 grid"
+    >
       <div
-        class="grid place-content-center justify-center w-[800px] h-[400px] bg-white rounded shadow-xl bg-opacity-[0.6] px-5"
+        class="grid place-content-center justify-center w-[380px] md:w-[800px] h-[400px] bg-white rounded shadow-xl bg-opacity-[0.6] px-5 mt-60 md:mt-0"
       >
-        <p class="font-extrabold text-gray-800 text-9xl text-center typing"></p>
+        <p
+          class="font-extrabold text-gray-800 text-5xl md:text-9xl text-center typing"
+        ></p>
       </div>
       <p
         id="demo"
         class="grid place-content-center bg-green-700 py-4 font-bold text-white"
       ></p>
     </main>
+
     <script src="./app.js"></script>
   </body>
 </html>
