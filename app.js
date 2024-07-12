@@ -20,7 +20,7 @@ let letter = "";
   setTimeout(type, 400);
 })();
 
-var countDownDate = new Date("April 1, 2022 00:00:00").getTime();
+var countDownDate = new Date("July 13, 2024 06:00:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
@@ -38,6 +38,6 @@ var x = setInterval(function () {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "LAUNCHED";
+    document.getElementById("demo").innerHTML = "Wubba lubba dub dub";
   }
 }, 1000);
